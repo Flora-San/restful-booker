@@ -13,4 +13,3 @@ def test_read_resource_by_id():
     assert response.status_code == 200  # Assuming 200 indicates successful resource retrieval
     assert "name" in response.json()  # Assuming the response includes a 'name' field
 
-# You can add more assertions to verify the retrieved resource's attributes
