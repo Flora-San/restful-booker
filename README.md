@@ -1,3 +1,5 @@
+### Restful-Booker API Testing
+
 To create this automated API test cases for the page [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html) we use Python and PyTest, here you can check the following steps:
 
 1. **Set Up Your Environment**:
@@ -11,10 +13,10 @@ To create this automated API test cases for the page [Restful-booker](https://re
 
 2. **Run the Tests**:
 
-   Open your terminal and navigate to the directory containing the test file (`test_restful_booker.py`) and run the tests using the following command:
+   Open your terminal and navigate to the directory containing the test file (`test_create_token.py`) and run the tests using the following command:
 
    ```
-   pytest -v test_restful_booker.py
+   pytest -v test_create_token.py
    ```
 
    PyTest will discover and execute the test cases, and you'll see the test results in the terminal.
