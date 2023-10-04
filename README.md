@@ -4,7 +4,20 @@ To create this automated API test cases for the page [Restful-booker](https://re
 
 1. **Set Up Your Environment**:
 
-   Ensure you have Python and PyTest installed on your system. Otherwise, you can install PyTest using the following command line:
+   Ensure you have Python and PyTest installed on your system.
+   use this command line to check if you have already python installed in your system:
+   ```
+   # Check the Python 3 version
+   $ python3 --version
+   ```
+
+   Install Python:
+   ```
+   $ sudo apt-get update
+   $ sudo apt-get install python3.8 python3-pip
+   ```
+
+   Otherwise, you can install PyTest using the following command line:
 
    ```
    pip install pytest requests
