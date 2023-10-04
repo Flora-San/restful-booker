@@ -14,5 +14,3 @@ def test_create_resource():
     response = requests.post(endpoint, json=data)
     assert response.status_code == 201  # Assuming 201 indicates successful resource creation
     assert "id" in response.json()  # Assuming the response includes an 'id' field
-
-# You can add more assertions to verify the created resource's attributes
